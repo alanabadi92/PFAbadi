@@ -1,0 +1,69 @@
+
+$colorTexto: rgb(13, 62, 114);
+$colorTextoLink: rgb(35, 133, 238);
+$primary: rgb(18, 87, 160);
+$fuenteP: 22px;
+
+
+.principal{
+    width: 100%;
+    height: 500px;
+    color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 0px;
+}
+
+.subtitulo{
+    color: $colorTexto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: $fuenteP;
+    max-width: 80%;
+    &:hover{
+        color: $colorTexto*2;
+    }
+}
+
+.imagen_cuerpo{
+    height: 400px;
+}
+
+section{
+    border: solid 1px black;
+    padding: 50px;
+    color: $colorTexto;
+}
+
+.menu_header{
+    li{
+        border: solid 1px;
+    }
+    a{
+        color: $colorTexto;
+        
+        &:hover{
+            color: $colorTextoLink;
+        }
+    }
+}
+
+.titulo{
+    text-decoration: none;
+    color: $colorTexto;
+    &:hover{
+        color: $colorTextoLink;
+    }
+}
+
+
+    
+
+
+@import "bootstrap";
+
